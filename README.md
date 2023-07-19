@@ -1,2 +1,5 @@
 # daily_programmers
-Single programmers problem a day.
+Single programmers problems every day.
+
+## Contributors
+Jeeon Bae, Dongyeop Lee 
