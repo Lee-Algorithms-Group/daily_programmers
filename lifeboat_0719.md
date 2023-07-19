@@ -13,3 +13,39 @@
 # references
 
 https://school.programmers.co.kr/learn/courses/30/lessons/42885
+
+
+# Solution
+### Dongyeop Lee
+```python
+from collections import deque
+
+def solution(people, limit):
+    count = 0
+    people.sort()
+    people = deque(people)
+    while people:
+        p = people.pop()
+        count+=1
+        if not people: break
+        if p+people[0]<=limit:
+            people.popleft()
+    return count
+```
+
+### Jeeon Bae
+```python
+def solution(people, limit): 
+    answer = 0
+    people.sort()
+    start = 0
+    end = 1
+    while( (start + end)  <= len(people) ):
+        if (people[start] + people[-end]) > limit:
+            end += 1
+        else:
+            start += 1
+            end += 1    
+        answer +=1
+    return answer
+```
