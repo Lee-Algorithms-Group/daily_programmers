@@ -1,4 +1,4 @@
-# daily_programmers
+# Daily programmers
 Single programmers problems every day.
 
 ## Contributors
