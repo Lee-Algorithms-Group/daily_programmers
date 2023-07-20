@@ -1,4 +1,5 @@
 # 구명보트 [#](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
+> 탐욕법(Greedy)
 
 ## 문제 설명
 
